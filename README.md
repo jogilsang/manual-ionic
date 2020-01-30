@@ -31,7 +31,7 @@ ionic serve –lab (IOS, Android 두개의 화면을 동시에 볼수있습니�
 5. JAVA 세팅
 5.1 JDK를 다운받아, 설치합니다.
 5.2 시스템 변수를 설정합니다. 
-JAVA_HOME (EX : C:\java-13-openjdk\java-13-openjdk)
+JAVA_HOME (EX : C:\java-13-openjdk\java-13-openjdk-13.0.1.9-2.windows.ojdkbuild.x86_64)
 5.3 Path에 추가합니다.
 %JAVA_HOME%\bin
 (위로 이동 버튼으로 리스트 항목의 가장 위로 올립니다.)
