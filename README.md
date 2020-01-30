@@ -1,5 +1,5 @@
 Ionic + Angular + Android
-
+```
 0.	정의
 Ionic이란?
 Cordova 기반 하이브리드 앱 개발 프레임워크
@@ -31,12 +31,12 @@ ionic serve –lab (IOS, Android 두개의 화면을 동시에 볼수있습니�
 5. JAVA 세팅
 5.1 JDK를 다운받아, 설치합니다.
 5.2 시스템 변수를 설정합니다. 
-    JAVA_HOME (EX : C:\java-13-openjdk\java-13-openjdk)
+JAVA_HOME (EX : C:\java-13-openjdk\java-13-openjdk)
 5.3 Path에 추가합니다.
-   %JAVA_HOME%\bin
-   (위로 이동 버튼으로 리스트 항목의 가장 위로 올립니다.)
+%JAVA_HOME%\bin
+(위로 이동 버튼으로 리스트 항목의 가장 위로 올립니다.)
 5.4 올바르게 설정되었다면, CMD 창에서 java와 javac 명령어가 실      
-   행됩니다.
+행됩니다.
 
 
 
@@ -58,3 +58,9 @@ C:\Users\(사용자 이름)\AppData\Local\Android\Sdk
 7. 프로젝트를 안드로이드 스튜디오로 build 합니다.
 8. 실행을 확인합니다. 
 
+ionic build android
+ionic cordova prepare android
+ionic cordova platform add android
+ionic cordova emulate android
+Ionic cordova run android
+```
