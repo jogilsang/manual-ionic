@@ -64,3 +64,12 @@ ionic cordova platform add android
 ionic cordova emulate android
 Ionic cordova run android
 ```
+
+```
+npm uninstall -g ionic --save
+npm uninstall -g ionic@3.20.0 --save
+npm uninstall -g ionic@5.4.15 --save
+npm cache clean -f
+재시작
+npm install g ionic@3.20.0
+```
