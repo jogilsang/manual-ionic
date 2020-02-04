@@ -86,3 +86,9 @@ nvm use 8.11.3
 npm install -g cordova@8.0.0
 npm install -g ionic@3.20.0
 ```
+
+### Angular
+1. 단방향 데이터 바인딩인 이유는?
+```
+양방향 데이터 바인딩의 경우, 렌더링 호출 이슈가 있을수있음
+```
