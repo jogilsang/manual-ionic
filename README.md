@@ -73,3 +73,16 @@ npm cache clean -f
 재시작
 npm install g ionic@3.20.0
 ```
+
+```
+coreybutler/nvm-windows
+release 1.1.6 install
+
+nvm install 8.11.3
+nvm install 0.12.7
+
+nvm use 8.11.3
+
+npm install -g cordova@8.0.0
+npm install -g ionic@3.20.0
+```
