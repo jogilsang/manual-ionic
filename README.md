@@ -92,3 +92,47 @@ npm install -g ionic@3.20.0
 ```
 양방향 데이터 바인딩의 경우, 렌더링 호출 이슈가 있을수있음
 ```
+### RxJS
+```
+RxJS?
+Observable을 사용해서 비동기 및 이벤트 기반 프로그램을 작성하기 위한 라이브러리
+비동기에 대한 솔루션
+리액트 프로그래밍과 함수형 프로그래밍 철학의 교집합
+
+프로그램 오류란 사용자의 입력에 따라 프로그램이 예상하는 결과를 얻지 못하는 것
+
+SPA : 페이지 하나로 이루어진 웹 어플리케이션
+
+입력 오류 해결
+동기, 비동기 데이터를 Observable로 일원화하는것
+
+상태 오류 해결
+Observable은 read-only로 단방향
+
+로직 오류 해결
+반복,분기,변수제거를 위해 함수형 프로그래밍 사용
+
+Observable 만들기
+array -> from -> pipe -> fillfrom???
+
+오퍼레이터 (Observable 실험 및 조작)
+Observable은 데이터를 observer가 subsribe하게되면 전달한다.
+Obserber는 Observable에서 전달하는 데이터를 소비하는 주체로, next,error,complete 세 가지 메소드를 가지고있음
+
+of : 각각 단일 데이터 값을 전달, observable
+range : 범위 내 값
+fromEvent : 브라우저에서 발생하는 이벤트 받아옴
+from : 모든 데이터
+promise : 성공(resolve)시 데이터를 전달, complete 호출
+실패(reject)시 자동구독해제
+interval(1000) 1초마다 호출
+
+promise와 observer의 공통점
+push방식
+에러처리 지연
+
+promise와 observer의 차이점
+지연X, 취소지원X, 딱 한번 호출, 데이터 1개만 전달가능해
+
+
+```
