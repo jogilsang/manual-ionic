@@ -149,3 +149,12 @@ promise와 observer의 차이점
 
 
 ```
+
+아이오닉 아이콘,스플래시 변경
+```
+이미지 만들어서 resources에 넣어두기
+ionic cordova resources
+아이디/패스워드 입력
+ionic cordova platform rm android
+ionic cordova platform add android
+```
