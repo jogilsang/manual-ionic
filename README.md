@@ -88,6 +88,17 @@ nvm use 8.11.3
 npm install -g cordova@8.0.0
 npm install -g ionic@3.20.0
 ```
+```
+as-is
+ionic 3.9.1
+node 8.11.3
+cordova 8.0.0
+
+to-be
+ionic 1.7.14
+node 4.2.4
+cordova 6.5.0
+```
 
 ### Angular
 1. 단방향 데이터 바인딩인 이유는?
