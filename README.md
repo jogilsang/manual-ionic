@@ -179,3 +179,16 @@ https://market.ionicframework.com/themes/ionic-material-design
 ```html
  <ion-toolbar color='main'>
 ```
+
+아이오닉 설정화면 만들기
+```
+  <!-- 리스트 -->
+  <ion-list>
+    <ion-item ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
+      <ion-icon [name]="item.icon" item-start></ion-icon>
+      <ion-label>{{item.title}}</ion-label>
+      <div class="item-note" item-end>{{item.note}}</div>
+      <ion-toggle checked='true'></ion-toggle>
+    </ion-item>
+  </ion-list>
+```
