@@ -181,14 +181,17 @@ https://market.ionicframework.com/themes/ionic-material-design
 ```
 
 아이오닉 설정화면 만들기
-```
+```html
   <!-- 리스트 -->
   <ion-list>
     <ion-item ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
       <ion-icon [name]="item.icon" item-start></ion-icon>
+      <!-- 아이템 아이콘 -->
       <ion-label>{{item.title}}</ion-label>
+      <!-- 아이템 설명 -->
       <div class="item-note" item-end>{{item.note}}</div>
-      <ion-toggle checked='true'></ion-toggle>
+      <!-- 아이템 체크 -->
+      <ion-toggle *ngIf = "item.note === ''" checked='true'></ion-toggle>
     </ion-item>
   </ion-list>
 ```
