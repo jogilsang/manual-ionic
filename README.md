@@ -163,6 +163,9 @@ ionic cordova platform add android
 ```
 달력 :
 https://market.ionicframework.com/starters/calendar
+npm install customcal --save
+npm install moment --save
+
 
 기본디자인 :
 https://market.ionicframework.com/themes/ionic-material-design
