@@ -163,6 +163,10 @@ ionic cordova platform add android
 ```
 달력 :
 https://market.ionicframework.com/starters/calendar
+1. download
+2. pages, pipes, components 복사해서, 붙여넣기
+3. app.module.ts에 선언하기(페이지,컴포넌트,파이프)
+4. cmd창으로 모듈설치(Package.json에서 확인가능, 또는 선언?)
 npm install customcal --save
 npm install moment --save
 
