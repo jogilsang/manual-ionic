@@ -200,3 +200,17 @@ https://market.ionicframework.com/themes/ionic-material-design
 ```
      <div class='alarm-check' item-end>알람 체크</div>
 ```
+
+아이오닉 scss
+```
+
+ <div class='alarm-check'style="color: #42A5DE;" item-end>알람 체크</div>
+
+page-home {
+    
+    .alarm-check{
+    background-color:yellow;
+ }
+
+}
+```
