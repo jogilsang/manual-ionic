@@ -174,3 +174,8 @@ npm install moment --save
 기본디자인 :
 https://market.ionicframework.com/themes/ionic-material-design
 ```
+
+아이오닉 색
+```html
+ <ion-toolbar color='main'>
+```
