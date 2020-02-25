@@ -195,3 +195,8 @@ https://market.ionicframework.com/themes/ionic-material-design
     </ion-item>
   </ion-list>
 ```
+
+아이오닉 정렬하기
+```
+     <div class='alarm-check' item-end>알람 체크</div>
+```
