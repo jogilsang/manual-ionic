@@ -197,12 +197,12 @@ https://market.ionicframework.com/themes/ionic-material-design
 ```
 
 아이오닉 정렬하기
-```
+```html
      <div class='alarm-check' item-end>알람 체크</div>
 ```
 
 아이오닉 scss
-```
+```html
 
  <div class='alarm-check'style="color: #42A5DE;" item-end>알람 체크</div>
 
@@ -213,4 +213,13 @@ page-home {
  }
 
 }
+```
+
+아이오닉 타이틀 변경
+```
+<ion-header>
+  <ion-navbar color='main'>
+    <ion-title>{{date}}</ion-title>
+  </ion-navbar>
+</ion-header>
 ```
