@@ -213,6 +213,15 @@ page-home {
  }
 
 }
+
+    .item-text {
+        float:left;
+        width:35%;
+        font-size: small;
+    }
+
+font-size: medium | xx-small | x-small | small | large | x-large | xx-large | smaller | larger | length | initial | inherit
+
 ```
 
 아이오닉 타이틀 변경
