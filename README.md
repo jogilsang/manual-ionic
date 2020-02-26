@@ -255,6 +255,13 @@ import { map, catchError } from 'rxjs/operators';
 import 'rxjs/add/observable/throw';
 
 // app.module.ts, providers에 추가
+// import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+// imports: [
+    BrowserModule,
+    IonicModule.forRoot(MyApp),
+    HttpClientModule
+  ],
+
 
 // 서비스에 변수선언
 observable: Observable<Object>;
