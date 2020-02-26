@@ -232,3 +232,14 @@ font-size: medium | xx-small | x-small | small | large | x-large | xx-large | sm
   </ion-navbar>
 </ion-header>
 ```
+
+아이오닉 린트 lint eslint
+```
+1. ESLint 설치
+2. nodejs 설치, https://nodejs.org/
+3. npm install -g eslint
+4. npm init -> enter enter....
+5. eslint --init
+6. custom화 한뒤 , https://eslint.org/docs/rules/ 참조
+-> 타입스크립트는 안되는듯...?
+```
