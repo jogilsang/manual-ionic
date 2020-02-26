@@ -291,3 +291,26 @@ this.service = openApiServiceProvider;
 // 모든 HTML에서 접근가능
 [(ngModel)]="service.items[0]"
 ```
+
+GET방식
+```
+// 서비스에 변수선언
+observable: Observable<Object>;
+
+// 서비스에 코드 추가
+    return new Promise(resolve => {
+      this.observable = this.http.get(url);
+      this.observable.subscribe(data => {
+        resolve(data);
+      });
+    }).then(data => {
+
+      this.dataToString = JSON.stringify(data); // 문자열 변환
+      console.log(this.dataToString);
+
+      this.data = data // 데이터 받기
+
+      this.setItem(this.data); // JSON 데이터 넘김
+
+    });
+```
