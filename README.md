@@ -314,3 +314,32 @@ observable: Observable<Object>;
 
     });
 ```
+
+POST 방식
+```
+1. 방식
+this.http.post('https://some.domain', 
+{ 
+  cardToken : token,
+  amount, 500
+}, 
+{
+  headers: { 'Content-Type': 'application/json' }
+})
+.then(data => {
+  console.log(data.data);
+}).catch(error => {
+  console.log(error.status);
+});
+
+2. 
+this.http.post(this.apiUrl+'/users', JSON.stringify(data), {
+    headers: new HttpHeaders().set('Authorization', 'my-auth-token'),
+    params: new HttpParams().set('id', '3'),
+  })
+  .subscribe(res => {
+    resolve(res);
+  }, (err) => {
+    reject(err);
+  });
+```
