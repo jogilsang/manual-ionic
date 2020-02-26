@@ -243,3 +243,51 @@ font-size: medium | xx-small | x-small | small | large | x-large | xx-large | sm
 6. custom화 한뒤 , https://eslint.org/docs/rules/ 참조
 -> 타입스크립트는 안되는듯...?
 ```
+
+아이오닉
+```
+// 프로바이더 생성
+ionic g provider openApiService
+
+// import
+import { Observable } from 'rxjs/Observable';
+import { map, catchError } from 'rxjs/operators';
+import 'rxjs/add/observable/throw';
+
+// app.module.ts, providers에 추가
+
+// 서비스에 변수선언
+observable: Observable<Object>;
+
+// 서비스에 코드 추가
+    return new Promise(resolve => {
+      this.observable = this.http.get(url);
+      this.observable.subscribe(data => {
+        resolve(data);
+      });
+    }).then(data => {
+
+      this.dataToString = JSON.stringify(data); // 문자열 변환
+      console.log(this.dataToString);
+
+      this.data = data // 데이터 받기
+
+      this.setItem(this.data); // JSON 데이터 넘김
+
+    });
+
+ // 서비스 선언
+ private service: any;
+
+  // 서비스 받기
+  constructor(public navCtrl: NavController,
+    public navParams: NavParams,
+    public openApiServiceProvider: OpenApiServiceProvider,
+    private geolocation: Geolocation
+  ) 
+this.service = openApiServiceProvider;
+
+// HTML을 통해 서비스 value 호출
+// 모든 HTML에서 접근가능
+[(ngModel)]="service.items[0]"
+```
