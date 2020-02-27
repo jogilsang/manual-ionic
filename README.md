@@ -350,3 +350,17 @@ this.http.post(this.apiUrl+'/users', JSON.stringify(data), {
     reject(err);
   });
 ```
+
+footer 처리
+```
+footer.html -> footer-ebg.html
+footerCtrl.js -> footerCtrlEbg.js
+footer-directive.js -> footer-ebg-directive.js
+index.html (footerCtrl.js -> footerCtrlEbg.js)
+index.html (footer-directive -> footer-ebg-directive)
+
+barcodeHide -> videoHide 변경
+현재 화면이 모바일 고객조사 도구면, hidden 처리
+기능은 footerCtrl에 
+
+```
