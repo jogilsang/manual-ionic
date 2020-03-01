@@ -357,6 +357,43 @@ this.http.post(this.apiUrl+'/users', JSON.stringify(data), {
   }, (err) => {
     reject(err);
   });
+  
+  3.
+  
+  post() {
+
+    let url = 'http://15.165.187.77:8080/res/insert';
+
+    let headers = new HttpHeaders();
+    headers.append("Content-Type", "application/json");
+
+    let body = {
+      title: "test",
+      date: "2020-03-01",
+      userName: "jogilsang",
+      roomName: "커뮤니티룸3",
+      sTime: "12:00",
+      eTime: "13:00"
+    };
+
+    return new Promise(resolve => {
+      this.observable = this.http.post(url,
+        body,
+        { headers: headers }
+      );
+      this.observable.subscribe(data => {
+        resolve(data);
+      });
+    }).then(data => {
+
+      this.dataToString = JSON.stringify(data); // 문자열 변환
+      this.data = data // 데이터 받기
+      console.log(this.data);
+    }).catch(error => {
+      console.log(error.status);
+    });
+
+  }
 ```
 
 footer 처리
