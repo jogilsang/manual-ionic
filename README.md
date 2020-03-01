@@ -304,7 +304,7 @@ this.service = openApiServiceProvider;
 
 http api test
 ```
-http://api.openweathermap.org/data/2.5/weather?id=seoul&appid=e9a29b293e27414b333b8e7c47663cc7
+http://api.openweathermap.org/data/2.5/weather?q=Seoul&appid=e9a29b293e27414b333b8e7c47663cc7
 ```
 
 http GET방식
