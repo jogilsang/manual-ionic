@@ -76,6 +76,7 @@ npm cache clean -f
 npm install g ionic@3.20.0
 ```
 
+ionic3
 ```
 coreybutler/nvm-windows
 release 1.1.6 install
@@ -88,6 +89,8 @@ nvm use 8.11.3
 npm install -g cordova@8.0.0
 npm install -g ionic@3.20.0
 ```
+
+ionic1
 ```
 as-is
 ionic 3.9.1
