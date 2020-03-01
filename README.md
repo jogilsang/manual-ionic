@@ -302,7 +302,12 @@ this.service = openApiServiceProvider;
 [(ngModel)]="service.items[0]"
 ```
 
-GET방식
+http api test
+```
+http://api.openweathermap.org/data/2.5/weather?id=seoul&appid=e9a29b293e27414b333b8e7c47663cc7
+```
+
+http GET방식
 ```
 // 서비스에 변수선언
 observable: Observable<Object>;
@@ -325,7 +330,7 @@ observable: Observable<Object>;
     });
 ```
 
-POST 방식
+http POST 방식
 ```
 1. 방식
 this.http.post('https://some.domain', 
