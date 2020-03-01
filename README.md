@@ -394,6 +394,35 @@ this.http.post(this.apiUrl+'/users', JSON.stringify(data), {
     });
 
   }
+  
+  4.
+    post2() {
+
+    let url = 'http://15.165.187.77:8080/res/insert';
+
+    let headers = new HttpHeaders();
+    headers.append("Content-Type", "application/json");
+
+    let data = {
+      title: "test",
+      date: "2020-03-01",
+      userName: "jogilsang",
+      roomName: "커뮤니티룸3",
+      sTime: "12:00",
+      eTime: "13:00"
+    };
+
+      return new Promise((resolve, reject) => {
+        this.http.post(url, JSON.stringify(data))
+          .subscribe(res => {
+            resolve(res);
+            console.log(res);
+          }, (err) => {
+            reject(err);
+            console.log(err);
+          });
+      });
+    }
 ```
 
 footer 처리
