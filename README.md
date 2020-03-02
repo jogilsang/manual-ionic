@@ -1,10 +1,27 @@
 FCM Setting
 ```
+참조사이트 : https://withhsunny.tistory.com/45?category=759103
 config.xml, package명 변경
 ionic cordova build android
 firebase 사이트 들어가서, 등록하고 json파일 app폴더에 넣기
 ionic cordova plugin add cordova-plugin-firebase
 npm install --save @ionic-native/firebase
+ionic 루트폴더에 json 파일 넣기
+
+app.module.ts에 추가
+import { Firebase } from '@ionic-native/firebase/ngx';
+  providers: [
+    Firebase
+  ]
+
+home.ts
+import { Firebase } from '@ionic-native/firebase/ngx';
+constructor(public navCtrl: NavController, private firebase: Firebase) {
+}
+
+함수 사용 :
+https://ionicframework.com/docs/native/firebase/ 참조
+
 ```
 
 cordova doc
