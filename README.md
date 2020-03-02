@@ -1,3 +1,12 @@
+FCM Setting
+```
+config.xml, package명 변경
+ionic cordova build android
+firebase 사이트 들어가서, 등록하고 json파일 app폴더에 넣기
+ionic cordova plugin add cordova-plugin-firebase
+npm install --save @ionic-native/firebase
+```
+
 cordova doc
 ```
 3.0
