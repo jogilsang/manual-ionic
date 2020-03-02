@@ -14,6 +14,11 @@ cordova url 인앱브라우저 inappbrowser window open
   var ref = window.open('url', '_blank', 'location=yes | hardwareback=no');
 ```
 
+vscode extention
+```
+bookmarks
+```
+
 Ionic + Angular + Android
 ```
 0.	정의
