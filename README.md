@@ -1,3 +1,8 @@
+cordova doc
+```
+https://cordova.apache.org/docs/ko/3.1.0/cordova/inappbrowser/window.open.html
+```
+
 Ionic + Angular + Android
 ```
 0.	정의
