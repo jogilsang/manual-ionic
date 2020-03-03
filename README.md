@@ -13,6 +13,13 @@ https://ionicframework.com/docs/v3/storage/
 
 
 -----------------------------------------------------------------------------------------
+
+아이오닉 livereload
+```
+ ionic cordova run android -l
+```
+
+
 FCM Setting
 ```
 참조사이트 : https://withhsunny.tistory.com/45?category=759103
