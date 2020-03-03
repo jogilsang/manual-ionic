@@ -1,3 +1,18 @@
+### Summery
+
+
+- Plugins
+```
+storage :
+https://ionicframework.com/docs/v3/storage/
+
+
+```
+
+
+
+
+-----------------------------------------------------------------------------------------
 FCM Setting
 ```
 참조사이트 : https://withhsunny.tistory.com/45?category=759103
