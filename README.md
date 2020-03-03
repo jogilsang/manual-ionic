@@ -20,30 +20,20 @@ https://ionicframework.com/docs/v3/storage/
 ```
 
 
-FCM Setting
+파이어베이스 메세징 푸시 FCM Setting
 ```
-참조사이트 : https://withhsunny.tistory.com/45?category=759103
-config.xml, package명 변경
+src : 
+https://ionicframework.com/docs/v3/native/fcm/
+
+config.xml에서 패키지 명 변경
+파이어베이스 사이트 들어가서, 패키지 명으로 프로젝트 만들고 json 다운
+cordova의 root폴더에 집어넣는다.
+ionic cordova plugin add cordova-plugin-fcm-with-dependecy-updated
+npm install --save @ionic-native/fcm@4
+토큰 처리
+ionic cordova platform add android@8.0.0
 ionic cordova build android
-firebase 사이트 들어가서, 등록하고 json파일 app폴더에 넣기
-ionic cordova plugin add cordova-plugin-firebase
-npm install --save @ionic-native/firebase
-ionic 루트폴더에 json 파일 넣기
-
-app.module.ts에 추가
-import { Firebase } from '@ionic-native/firebase/ngx';
-  providers: [
-    Firebase
-  ]
-
-home.ts
-import { Firebase } from '@ionic-native/firebase/ngx';
-constructor(public navCtrl: NavController, private firebase: Firebase) {
-}
-
-함수 사용 :
-https://ionicframework.com/docs/native/firebase/ 참조
-
+확인
 ```
 
 cordova doc
