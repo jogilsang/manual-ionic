@@ -6,6 +6,9 @@
 storage :
 https://ionicframework.com/docs/v3/storage/
 
+device : 
+https://ionicframework.com/docs/v3/native/device/
+
 
 ```
 
