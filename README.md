@@ -22,6 +22,26 @@ https://ionicframework.com/docs/v3/native/device/
  ionic cordova run android -l
 ```
 
+문서 해석 doc 해석
+```
+        params?: HttpParams | {
+            [param: string]: string | string[];
+        };
+        
+        {
+          params: {
+            title: '조길상',
+            date: '2020-02-26',
+            userName: '조길상',
+            roomName: '커뮤니티룸2',
+            startTime: '15:00',
+            endTime: '16:00',
+            token: 'test'
+          }
+        }
+        
+```
+
 
 파이어베이스 메세징 푸시 FCM Setting
 ```
