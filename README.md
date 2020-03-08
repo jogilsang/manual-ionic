@@ -242,7 +242,16 @@ promise와 observer의 차이점
 
 아이오닉 아이콘,스플래시 변경
 ```
-이미지 만들어서 resources에 넣어두기
+1. 이미지 만들어서 resources에 넣어두기
+ionic resource --icon
+min 192
+1024
+
+ionic resource --splash
+1200 x 1200
+2208 x 2208
+
+2.
 ionic cordova resources
 아이디/패스워드 입력
 ionic cordova platform rm android
