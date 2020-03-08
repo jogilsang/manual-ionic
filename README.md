@@ -17,6 +17,11 @@ https://ionicframework.com/docs/v3/native/device/
 
 -----------------------------------------------------------------------------------------
 
+아이오닉 run
+```
+ionic cordova run android --prod
+```
+
 아이오닉 livereload
 ```
  ionic cordova run android -l
