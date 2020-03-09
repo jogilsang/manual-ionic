@@ -13,9 +13,19 @@ https://ionicframework.com/docs/v3/native/device/
 ```
 
 
-
-
 -----------------------------------------------------------------------------------------
+
+
+안드로이드 9 이상 config 추가해줘야됨
+```
+1. root/config.xml
+    <platform name="android">
+        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application" xmlns:android="http://schemas.android.com/apk/res/android">
+            <application android:usesCleartextTraffic="true" />
+            <application android:networkSecurityConfig="@xml/network_security_config" />
+        </edit-config>
+```
+
 
 아이오닉 run
 ```
