@@ -9,6 +9,8 @@ https://ionicframework.com/docs/v3/storage/
 device : 
 https://ionicframework.com/docs/v3/native/device/
 
+long-press :  
+https://www.npmjs.com/package/ionic-long-press/v/1.5.0  
 
 ```
 
