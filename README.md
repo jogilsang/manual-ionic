@@ -191,6 +191,7 @@ npm install -g ionic@3.20.0
 
 ionic1
 ```
+- setting
 as-is
 ionic 3.9.1
 node 8.11.3
@@ -200,6 +201,9 @@ to-be
 ionic 1.7.14
 node 4.2.4
 cordova 6.5.0
+
+- command
+cordova build --release android
 ```
 
 ### Angular
