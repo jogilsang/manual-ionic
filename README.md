@@ -203,9 +203,24 @@ node 4.2.4
 cordova 6.5.0
 
 - command
-cordova platform add android
+cordova platform add android@6.2.1
 cordova build --release android
 cordova emulate android
+
+-- error
+Error: Could not find gradle wrapper within Android SDK. Might need to update your Android SDK.
+Looked here: C:\Users\cho_gilsang\AppData\Local\Android\sdk\tools\templates\gradle\wrapper
+ERROR: Cannot add task 'wrapper' as a task with that name already exists.
+
+answer : cordova platform add android@6.2.1
+
+Error: Could not find an installed version of Gradle either in Android Studio,
+or on your system to install the gradle wrapper. Please include gradle
+in your path, or install Android Studio
+
+answer : 
+
+
 ```
 
 ### Angular
