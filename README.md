@@ -203,7 +203,9 @@ node 4.2.4
 cordova 6.5.0
 
 - command
+cordova platform add android
 cordova build --release android
+cordova emulate android
 ```
 
 ### Angular
