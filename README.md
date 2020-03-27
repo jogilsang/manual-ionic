@@ -202,6 +202,12 @@ ionic 1.7.14
 node 4.2.4
 cordova 6.5.0
 
+- environment
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_241;
+GRADLE_HOME = C:\Gradle\gradle-6.3\bin
+
+%JAVA_HOME%\bin
+
 - command
 cordova platform add android@6.2.1
 cordova build --release android
@@ -218,7 +224,11 @@ Error: Could not find an installed version of Gradle either in Android Studio,
 or on your system to install the gradle wrapper. Please include gradle
 in your path, or install Android Studio
 
-answer : 
+answer : install the gradle, and setting path
+
+JAVA_HOME is set to an invalid directory:
+
+answer : java_path setting
 
 
 ```
