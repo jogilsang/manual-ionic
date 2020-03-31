@@ -230,6 +230,8 @@ JAVA_HOME is set to an invalid directory:
 
 answer : java_path setting
 
+cli :
+ionic start EBGSEntryCheck blank
 
 ```
 
