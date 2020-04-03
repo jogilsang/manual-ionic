@@ -212,6 +212,7 @@ GRADLE_HOME = C:\Gradle\gradle-6.3\bin
 
 - command
 cordova platform add android@6.2.1
+cordova build --debug android
 cordova build --release android
 cordova emulate android
 
