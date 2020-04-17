@@ -11,10 +11,13 @@ Question :
 Your global Angular CLI version (9.1.1) is greater than your local
 version (8.3.26). The local Angular CLI version is used.
 
+Error: This version of CLI is only compatible with the Angular version but found instead
+
 answer :
 ng --version
 npm install --save-dev @angular/cli@latest
 ng --version
+ng update
 
 ```
 
