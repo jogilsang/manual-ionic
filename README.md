@@ -7,8 +7,14 @@ ng serve --open --host 0.0.0.0 --disable-host-check
 
 
 0. trouble Shooting
+Question :
 Your global Angular CLI version (9.1.1) is greater than your local
 version (8.3.26). The local Angular CLI version is used.
+
+answer :
+ng --version
+npm install --save-dev @angular/cli@latest
+ng --version
 
 ```
 
