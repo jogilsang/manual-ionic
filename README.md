@@ -1,4 +1,10 @@
 
+## Angular vs ionic
+```
+localStorage
+별도의 import 없이 바로 사용하면됨
+```
+
 ### Angular
 ```
 
