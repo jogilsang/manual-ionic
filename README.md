@@ -1,4 +1,9 @@
 
+### Toast 메시지  
+```
+$ionicLoading.show({ template: 'Item Added!', noBackdrop: true, duration: 2000 });
+```
+
 ## Angular vs ionic
 ```
 localStorage
