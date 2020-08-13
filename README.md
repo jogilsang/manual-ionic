@@ -49,6 +49,31 @@ https://www.npmjs.com/package/ionic-long-press/v/1.5.0
 
 ```
 
+### 팝업
+```
+            $scope.shopItemChoisePopup = $ionicPopup.alert({
+                title: "조회 선택",
+                template: ' \
+                		<div class="selBtnBox row"> \
+                            <div class="col"> \
+                                <button class="sel1" ng-click="closeShopNItemSelectPopup(1)"> \
+                                    <span>매장별</span>판매 조회 \
+                                </button> \
+                            </div> \
+                            <div class="col"> \
+                                <button class="sel2" ng-click="closeShopNItemSelectPopup(2)"> \
+                                    <span>단품별</span>판매 조회 \
+                                </button> \
+                            </div> \
+                        </div> \
+                ',
+                cssClass: 'customPopup',
+                scope: $scope,
+                okText : '취소'
+            });
+
+```
+
 
 -----------------------------------------------------------------------------------------
 
