@@ -50,7 +50,12 @@ https://www.npmjs.com/package/ionic-long-press/v/1.5.0
 ```
 
 ### 팝업
+- 페이지이동
+```javascript
+controllerModule.controller('FProductSaleSumCtrl', function ($scope, $state
 ```
+- 커스텀 팝업
+```javascript
             $scope.shopItemChoisePopup = $ionicPopup.alert({
                 title: "조회 선택",
                 template: ' \
