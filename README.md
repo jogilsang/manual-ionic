@@ -645,3 +645,19 @@ barcodeHide -> videoHide 변경
 기능은 footerCtrl에 
 
 ```
+
+### swipe
+```
+on-swipe
+on-swipe-up
+on-swipe-right
+on-swipe-down
+on-swipe-left
+
+<ion-item on-swipe-left="doSomething()" on-swipe="fn()" 
+
+link : https://ionicframework.com/docs/v1/api/directive/onSwipe/
+```
+
+
+
