@@ -648,15 +648,21 @@ barcodeHide -> videoHide 변경
 
 ### swipe
 ```
+manual : 
 on-swipe
 on-swipe-up
 on-swipe-right
 on-swipe-down
 on-swipe-left
 
+usage : 
+<ion-list show-delete="false" can-swipe="true" swipe-direction="both">
 <ion-item on-swipe-left="doSomething()" on-swipe="fn()" 
+    <ion-option-button on-swipe="fn()">
+    </ion-option-button>
 
-link : https://ionicframework.com/docs/v1/api/directive/onSwipe/
+link : 
+https://ionicframework.com/docs/v1/api/directive/onSwipe/
 ```
 
 
