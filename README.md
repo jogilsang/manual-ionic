@@ -10,6 +10,12 @@ localStorage
 별도의 import 없이 바로 사용하면됨
 ```
 
+### cordova 삭제 및 버전
+```
+cordova platform rm android
+cordova -version
+```
+
 ### Angular
 ```
 
